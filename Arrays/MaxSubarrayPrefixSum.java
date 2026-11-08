@@ -26,7 +26,7 @@ public class MaxSubarrayPrefixSum {
             System.out.println("Array is empty");
             return;
         }
-        int currsum = 0;
+        int currsum;
         int maxsum = Integer.MIN_VALUE;
         int prefix[] = new int[num.length];
 
