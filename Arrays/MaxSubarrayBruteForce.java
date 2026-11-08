@@ -39,6 +39,7 @@ public class MaxSubarrayBruteForce {
     }
 
     public static void main(String args[]) {
+        // MaxSum 
         int num[] = {2, 3, 5, 7, 9, 6};
         maxsubarrsum(num);
     }
